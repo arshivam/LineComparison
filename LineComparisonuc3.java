@@ -32,16 +32,13 @@ public class LineComparisonuc3 {
         System.out.println("Length of the given Line1 is : " + length1 + " units" );
         System.out.println("Length of the given Line2 is : " + length2 + " units" );
 
-        if (length1 >= length2)
-        {
+        if (length1 >= length2) {
            System.out.println("Length of line 1 is greater than line 2");
         }
-        else if (length1 <= length2)
-        {
+        else if (length1 <= length2) {
            System.out.println("Length of line 1 is lesser than line 2");
         }
-        else
-        {
+        else {
            System.out.println("Both lines are equal");
         }
     }
